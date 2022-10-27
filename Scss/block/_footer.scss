@@ -1,0 +1,85 @@
+.foooter-blok-list {
+  max-width: 1390px;
+  color: #fffF;
+  margin-top: -20px;
+  padding: 56px 0;
+  background: #191919;
+}
+
+.facebook,
+.telegram {
+  padding: 30px 35px;
+  background-position: 0 29px;
+}
+
+.facebook,
+.instagram,
+.telegram {
+  color: #fffF;
+  line-height: 34px;
+  background-repeat: no-repeat;
+}
+
+.foooter-blok-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-copyright {
+  width: 320px;
+}
+
+.footer-sayt {
+  margin-left: 130px;
+}
+
+.facebook,
+.foooter-ul,
+.instagram,
+.telegram {
+  margin-left: -40px;
+}
+
+.foooter-ul {
+  Font-size: 16px;
+  Line-height: 34px;
+  Line-height: 190%;
+}
+
+.telegram {
+  background-image: url('../img/telegram2.svg');
+}
+
+.facebook {
+  background-image: url('../img/facebook2.svg');
+}
+
+.instagram {
+  padding: 20px 35px;
+  background-image: url('../img/instagram2.svg');
+  background-position: 0 20px;
+}
+
+@media only screen and (max-width: 850px) {
+  .footer-copyright {
+    width: 260px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .foooter-blok-link {
+    flex-direction: column;
+    text-align: center;
+
+  }
+
+  .footer-copyright {
+
+    margin: 0 auto;
+  }
+
+  .footer-sayt {
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,172 @@
+.middle__container {
+  padding: 40px 0;
+  margin: 0 auto;
+}
+
+
+.middle__nav {
+  padding: 60px 0;
+  display: flex;
+  margin: 0 auto;
+}
+
+
+.nav__link {
+  margin-left: 180px;
+
+}
+
+.middle__link {
+  Font-style: Bold;
+  width: 117px;
+  Font-size: 24px;
+  Line-height: 31px;
+  Line-height: 130%;
+  margin: 0 auto;
+  margin-bottom: 16px;
+
+}
+
+.middle__text {
+  width: 719px;
+  Font-style: Regular;
+  Font-size: 16px;
+  Line-height: 24px;
+  Line-height: 140%;
+  margin: 0 auto;
+}
+
+.middle__link-ul {
+  width: 320px;
+  text-align: center;
+  padding: 40px 30px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, .1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, .1);
+}
+
+.middle__link-ul+.middle__link-ul {
+  margin-left: 30px;
+}
+
+.middle__list {
+  Font-style: Bold;
+  Font-size: 20px;
+  Line-height: 26px;
+  Line-height: 130%;
+  margin: 20px 0;
+}
+
+.middle__lorem {
+  Font-style: Regular;
+  Font-size: 16px;
+  Line-height: 24px;
+  Line-height: 120%;
+}
+
+@media only screen and (max-width: 960px) {
+  .middle__nav {
+    flex-direction: column;
+
+  }
+
+  .middle__nav {
+    margin: 0 auto;
+  }
+
+  .middle__link-ul {
+    width: 580px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .middle__link-div {
+    margin-left: 180px;
+  }
+
+  .nav__link {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .site__link-nullam {
+    flex-direction: column;
+  }
+}
+
+
+@media only screen and (max-width: 660px) {
+  .middle__link-ul {
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .middle__text {
+    width: 360px;
+    Font-style: Regular;
+    Font-size: 14px;
+    Line-height: 20px;
+    Line-height: 100%;
+  }
+
+  .site__text {
+    width: 420px;
+    Font-size: 13px;
+    Line-height: 21px;
+    Line-height: 110%;
+  }
+
+}
+
+
+
+
+.site__link-boxs {
+  text-align: center;
+  margin-top: 30px;
+  Font-style: Bold;
+  Font-size: 24px;
+  Line-height: 31px;
+  Line-height: 130%;
+}
+
+.site__text {
+  width: 719px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  Font-size: 16px;
+  Line-height: 24px;
+  Line-height: 130%;
+}
+
+.site__link-nullam {
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 160px;
+  margin-bottom: 40px
+}
+
+.site__list-tably {
+  Font-style: Bold;
+  Font-size: 20px;
+  Line-height: 26px;
+  Line-height: 130%;
+}
+
+.site__text-tably {
+  Font-style: Regular;
+  Font-size: 16px;
+  Line-height: 24px;
+  Line-height: 130%;
+  margin-top: 16px;
+}
+
+.site__list-duis {
+  width: 500px;
+  margin-left: 50px
+}
